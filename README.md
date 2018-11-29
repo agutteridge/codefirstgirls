@@ -29,6 +29,7 @@ if __name__ == '__main__':
 # NOT app.run(debug=True) on its own!
 ```
 10. Almost there! Run `git push heroku` in the terminal. This pushes your code to Heroku, which will apply the changes to your (hopefully running) server.
+11. Run `heroku open` as a shortcut to open your webpage in a browser. If there are errors, run `heroku logs --tail` to have a look.
 
 ## Push to GitHub, push to Heroku
 Every time you make a change, the commands you run will be as follows:
