@@ -1,4 +1,4 @@
-from deploy-test import app
+from deploytest import app
 
 if __name__ == "__main__":
     app.run()

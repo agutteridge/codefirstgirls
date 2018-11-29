@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini
+web: uwsgi deploytest/uwsgi.ini
