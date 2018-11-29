@@ -4,7 +4,6 @@ MarkupSafe==0.23
 Werkzeug==0.9.6
 altgraph==0.10.2
 bdist-mpkg==0.5.0
-bonjour-py==0.3
 cutadapt==1.8.3
 itsdangerous==0.24
 macholib==1.5.1
