@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    <center>
+    <h1>{{ title }}</h1>
+    {% if title.upper() == 'THE PHANTOM MENACE' %}
+      <img src="https://media.giphy.com/media/3owzWfuEMmNX4rquJ2/giphy.gif">
+    {% elif title.upper() == 'THE LAST JEDI' %}
+      <img src="https://media.giphy.com/media/xUNda8a2aMUkP0Zww8/giphy.gif">
+    {% else %}
+      <img src="https://media.giphy.com/media/l1KukmU61yHigdK4U/giphy.gif">
+    {% endif %}
+  </center>
+</body>
+</html>
