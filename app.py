@@ -1,6 +1,6 @@
 from flask import Flask
 
-app = Flask('my_app')
+app = Flask('test-heroku-app')
 
 @app.route('/')
 def hello():
@@ -14,4 +14,5 @@ def films(number):
 
 	return all_films[number]
 
-app.run(debug=True)
+if __name__ == '__main__':
+	app.run(debug=True)
